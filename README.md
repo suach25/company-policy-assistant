@@ -48,3 +48,11 @@ The policies are short and may not include every detail. The assistant can selec
 ## API key
 
 The application uses a private server-side Gemini API key. The key is not included in this repository or the website’s browser code.
+
+## Slack policy bot
+
+Policy Assistant answers questions in the Slack channel `sudip-policy-testing`. Mention `@Policy Assistant` with a question to receive an answer and the relevant policy.
+
+The bot uses the same meaning-based policy search as the website. It runs on my MacBook and responds while the bot program is running.
+
+The bot code is in `slack_bot.py`, its required packages are listed in `requirements-slack.txt`, and its checks are in `tests/test_slack.py`. Private Slack tokens are not included in this repository.
